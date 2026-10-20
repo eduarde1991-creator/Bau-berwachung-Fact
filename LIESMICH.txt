@@ -1,0 +1,20 @@
+Bauüberwachung – App-Paket v2 (FACT Aufzugsplanung)
+
+Dateien: index.html (Tool), manifest.webmanifest + sw.js (App-Funktion), icon-*.png (Logo).
+
+AUF GITHUB BEREITSTELLEN (oder aktualisieren)
+1. github.com im Browser öffnen > Repository (z. B. "bauueberwachung") > "Add file" > "Upload files".
+2. Alle Dateien aus diesem Ordner hineinziehen/auswählen. Gleiche Namen werden ersetzt. "Commit changes".
+3. Nur beim ersten Mal: Settings > Pages > "Deploy from a branch" > main / (root) > Save.
+4. Adresse (fester Link): https://DEINNAME.github.io/REPONAME/
+
+INSTALLIEREN
+- Tablet/Handy (Chrome): Adresse öffnen > Menü > "App installieren" bzw. "Zum Startbildschirm hinzufügen".
+- Laptop (Chrome/Edge): Adresse öffnen > Installieren-Symbol in der Adressleiste, oder Menü > "App installieren" / Lesezeichen setzen.
+Passwort beim Öffnen: Aufzüge (Groß-/Kleinschreibung egal).
+
+ARBEITSWEISE
+- Die App startet immer leer (nur Voreinstellungen). Protokolle werden mit "Protokoll speichern" als Datei abgelegt
+  und mit "Protokoll laden" wieder geöffnet. PDF über Vorschau > "PDF speichern".
+- Für die Aufbewahrung: Protokolldatei (.json) und PDF zusammen ablegen, dazu dieses Paket (ZIP) archivieren.
+- Aktualisierung: Zeigt das Gerät noch die alte Version, die App einmal ganz schließen und neu öffnen.
